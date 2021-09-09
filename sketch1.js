@@ -92,6 +92,9 @@ if (gamestate==="next"){
     leftbutton.visible=true
     wait.visible=false
     startbutton.visible=true
+    textSize(50)
+    fill(0)
+    text("ABOUT", windowWidth/2,100)
 }
 
 if (gamestate==="play"){
